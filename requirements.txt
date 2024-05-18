@@ -1,0 +1,15 @@
+pandas
+numpy
+seaborn 
+matplotlib
+scikit-learn
+imbalanced-learn
+xgboost
+dill
+dataclasses
+flask
+nltk
+sastrawi
+statsmodels
+gensim
+#-e .
