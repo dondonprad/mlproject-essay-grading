@@ -5,6 +5,8 @@ import pickle
 from src.exception import CustomException
 
 
+
+
 def save_object(file_path, obj):
     try:
         dir_path = os.path.dirname(file_path)
@@ -24,3 +26,4 @@ def load_object(file_path):
 
     except Exception as e:
         raise CustomException(e, sys)
+    
